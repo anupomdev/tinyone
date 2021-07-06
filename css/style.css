@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden !important;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+ol,
+ul,
+span {
+    padding: 0;
+    margin: 0;
+}
+
+/* common css end */
+
+/* ================section head start============== */
+.section_head {
+    padding-bottom: 60px;
+
+}
+
+#contact_part .section_head{
+    padding-bottom: 30px;
+
+}
+
+
+#contact_part .section_head h3 {
+    color: #fcdb00;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+#contact_part .section_head p {
+    color: #898989;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+
+
+
+.section_head h3 {
+    color: #010101;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+.section_head p {
+    color: #313841;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* ================section head end============== */
+
+
+
+
+/* header part start */
+.main_navbar {
+    padding: 50px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.main_menu ul li {
+    margin-left: 70px !important;
+
+}
+
+.main_menu ul li a {
+    color: #101010;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0 !important;
+}
+
+.main_menu ul li a:hover {
+    color: #101010;
+
+
+}
+
+/* header part end */
+
+/* banner part start */
+
+.banner_item {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 254px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.banner_col h2 {
+    color: #101010;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.banner_col h4 {
+    color: #313841;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 66px;
+    padding-bottom: 12px;
+}
+
+.banner_col p {
+    color: #555555;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 12px;
+}
+
+.banner_col ul {
+    display: flex;
+    padding-top: 20px;
+
+}
+
+.banner_col ul li {
+    margin-right: 40px;
+
+}
+
+.banner_col ul li a i {
+    font-size: 40px;
+    color: #010101;
+}
+
+#banner_part .slick-dots {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+#banner_part .slick-dots li button {
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 5px;
+
+}
+
+#banner_part .slick-dots li.slick-active button {
+    background: #ffffff;
+    border-color: #ffffff;
+}
+
+/* banner part end */
+
+/* features part start */
+
+#features_part {
+    padding: 100px 0;
+
+}
+
+.feature_txt i {
+    color: #101010;
+    font-size: 50px;
+    margin-top: 5px;
+}
+
+.feature_txt h4 {
+    color: #010101;
+    font-size: 22px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+.feature_mar{
+margin-bottom: 80px;
+}
+
+/* features part end */
+
+/* contact part start */
+
+#contact_part{
+    background: #010101;
+    padding:100px 0;
+}
+
+.form_con{
+    width: 580px;
+    height: 50px;
+}
+
+.con_form{
+    padding-bottom: 75px;
+}
+
+.con_form input{
+    padding-left: 10px;
+    border-radius:5px ;
+    border: none;
+
+}
+
+.con_form input::placeholder{
+    color: #898989;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+.con_form button{
+    color: #010101;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    width: 130px;
+    height: 50px;
+    background: #fcdb00;
+    border: none;
+    margin-left: 15px;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+
+.cont_icon{
+    display: flex;
+    padding-bottom: 100px;
+
+}
+.cont_icon li a{
+width: 40px;
+height: 40px;
+background: #fcdb00;
+line-height: 40px;
+text-align: center;
+margin: 0 15px;
+color: #010101;
+}
+
+.cont_text span{
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+
+
+/* contact part end */
